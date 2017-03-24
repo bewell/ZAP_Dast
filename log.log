@@ -1,0 +1,195 @@
+Found Java version 1.8.0_92
+Available memory: 16384 MB
+Setting jvm heap size: -Xmx512m
+0 [main] INFO org.zaproxy.zap.DaemonBootstrap  - OWASP ZAP 2.5.0 started.
+39 [main] INFO org.parosproxy.paros.network.SSLConnector  - Reading supported SSL/TLS protocols...
+39 [main] INFO org.parosproxy.paros.network.SSLConnector  - Using a SSLEngine...
+231 [main] INFO org.parosproxy.paros.network.SSLConnector  - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+232 [main] INFO org.parosproxy.paros.extension.option.OptionsParamCertificate  - Unsafe SSL renegotiation disabled.
+520 [main] INFO hsqldb.db..ENGINE  - open start - state not modified
+605 [main] INFO hsqldb.db..ENGINE  - dataFileCache open start
+609 [main] INFO hsqldb.db..ENGINE  - dataFileCache open end
+657 [ZAP-daemon] INFO org.zaproxy.zap.control.ExtensionFactory  - Loading extensions
+1627 [ZAP-daemon] INFO org.zaproxy.zap.control.ExtensionFactory  - Extensions loaded
+1758 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Change user agent to other browsers. 
+1760 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+1760 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+1760 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Avoid browser cache (strip off IfModifiedSince)
+1760 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Log cookies sent by browser.
+1760 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Log unique GET queries into file:filter/get.xls
+1760 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Log unique POST queries into file:  filter/post.xls
+1760 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Log request and response into file: filter/message.txt
+1761 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Replace HTTP request body using defined pattern.
+1761 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Replace HTTP request header using defined pattern.
+1761 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Replace HTTP response body using defined pattern.
+1761 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Replace HTTP response header using defined pattern.
+1761 [ZAP-daemon] INFO org.parosproxy.paros.extension.filter.FilterFactory  - loaded filter Send ZAP session request ID
+1874 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Allows ZAP to check for updates
+1876 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionViewOption
+1877 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionEdit
+1877 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionFilter
+1877 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Provides a rest based API for controlling and accessing ZAP
+1902 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionState
+1902 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionHistory
+1904 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Show hidden fields and enable disabled fields
+1904 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Search messages for strings and regular expressions 
+1905 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Encode/Decode/Hash...
+1905 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Allows you to intercept and modify requests and responses
+1905 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Passive scanner
+1946 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Script passive scan rules
+1946 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Stats Passive Scan Rule
+1946 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Application Error Disclosure
+1946 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Incomplete or No Cache-control and Pragma HTTP Header Set
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Content-Type Header Missing
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Cookie No HttpOnly Flag
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Cookie Without Secure Flag
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Cross-Domain JavaScript Source File Inclusion
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Web Browser XSS Protection Not Enabled
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Secure Pages Include Mixed Content
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Password Autocomplete in Browser
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Private IP Disclosure
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: Session ID in URL Rewrite
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: X-Content-Type-Options Header Missing
+1947 [ZAP-daemon] INFO org.zaproxy.zap.extension.pscan.ExtensionPassiveScan  - loaded passive scan rule: X-Frame-Options Header Scanner
+1958 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Allows you to view and manage alerts
+1958 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Active scanner, heavily based on the original Paros active scanner, but with additional tests added
+1961 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Spider used for automatically finding URIs on a site
+1965 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing A set of common popup menus for miscellaneous tasks
+1966 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Forced browsing of files and directories using code from the OWASP DirBuster tool
+1966 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionManualRequest
+1966 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Compares 2 sessions and generates an HTML file showing the differences
+1966 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Invoke external applications passing context related information such as URLs and parameters
+1966 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Handles anti cross site request forgery (CSRF) tokens
+1967 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionAuthentication
+2452 [ZAP-daemon] INFO org.zaproxy.zap.extension.authentication.ExtensionAuthentication  - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
+2453 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Creates a dynamic SSL certificate to allow SSL communications to be intercepted without warnings being generated by the browser
+2468 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Logs errors to the Output tab in development mode only
+2468 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionUserManagement
+2469 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Summarise and analyse FORM and URL parameters as well as cookies
+2469 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Script integration
+2477 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Scripting console, supports all JSR 223 scripting languages
+2477 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionForcedUser
+2477 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Extension handling HTTP sessions
+2478 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Zest is a specialized scripting language from Mozilla specifically designed to be used in security tools
+2639 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionDiff
+2639 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionRequestPostTableView
+2639 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionSessionManagement
+2752 [ZAP-daemon] INFO org.zaproxy.zap.extension.sessions.ExtensionSessionManagement  - Loaded session management method types: [Cookie-based Session Management, HTTP Authentication Session Management]
+2753 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionHttpPanelRequestFormTableView
+2753 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Capture messages from WebSockets with the ability to set breakpoints.
+2757 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Summarise and analyse FORM and URL parameters as well as cookies
+2757 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionAuthorization
+2757 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing AJAX Spider, uses Crawljax
+2758 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Handles adding Global Excluded URLs
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Adds menu item to refresh the Sites tree
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Adds support for configurable keyboard shortcuts for all of the ZAP menus.
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing OWASP ZAP User Guide
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionReport
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Allows you to configure which extensions are loaded when ZAP starts 
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionHttpPanelComponentonentAll
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionHttpPanelHexView
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionHttpPanelImageView
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionHttpPanelLargeRequestView
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionHttpPanelLargeResponseView
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionHttpPanelRequestQueryCookieTableView
+2759 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionHttpPanelSyntaxHighlightTextView
+2760 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Statistics
+2760 [ZAP-daemon] INFO org.zaproxy.zap.extension.stats.ExtensionStats  - Start recording in memory stats
+2761 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Context alert rules filter
+2762 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Translations of the core language files
+2762 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing The ZAP Getting Started Guide
+2762 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing The Online menu links
+2762 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Quick Start panel 
+2762 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing ExtensionSaveRawHttpMessage
+2762 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Tips and Tricks
+2763 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Allows to fuzz WebSocket messages.
+2763 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Active Scan Rules
+2763 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Provides the foundation for concrete message types (for example, HTTP, WebSockets) expose fuzzer implementations.
+2764 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Allows to fuzz HTTP messages.
+2764 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Passive Scan Rules
+2764 [ZAP-daemon] INFO org.parosproxy.paros.extension.ExtensionLoader  - Initializing Provides WebDrivers to control several browsers using Selenium and includes HtmlUnit browser.
+2891 [ZAP-daemon] INFO org.zaproxy.zap.DaemonBootstrap  - ZAP is now listening on 127.0.0.1:9090
+9000 [ZAP-ProxyThread-1] INFO org.zaproxy.zap.extension.httpsessions.ExtensionHttpSessions  - Added new session token for site '192.168.1.115:80': PHPSESSID
+9002 [ZAP-ProxyThread-1] INFO org.zaproxy.zap.extension.httpsessions.HttpSessionsSite  - Created a new session as no match was found: HttpSession [name=Session 0, active=false, tokenValues='']
+11084 [Thread-7] INFO org.zaproxy.zap.extension.spider.SpiderThread  - Starting spidering scan on SpiderApi-0 at Thu Mar 23 13:02:52 EET 2017
+11085 [Thread-7] INFO org.zaproxy.zap.spider.Spider  - Spider initializing...
+11107 [Thread-7] INFO org.zaproxy.zap.spider.Spider  - Starting spider...
+11219 [pool-1-thread-2] INFO org.zaproxy.zap.spider.Spider  - Spidering process is complete. Shutting down...
+11220 [Thread-8] INFO org.zaproxy.zap.extension.spider.SpiderThread  - Spider scanning complete: true
+18129 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Path Traversal
+18129 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Remote File Inclusion
+18130 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Server Side Include
+18130 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Reflected)
+18130 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Persistent)
+18130 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin SQL Injection
+18131 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Server Side Code Injection
+18131 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Remote OS Command Injection
+18131 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Directory Browsing
+18132 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin External Redirect
+18132 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Buffer Overflow
+18132 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Format String Error
+18132 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin CRLF Injection
+18133 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Parameter Tampering
+18133 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Persistent) - Prime
+18133 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Persistent) - Spider
+18133 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Script Active Scan Rules
+18134 [ZAP-ProxyThread-4] INFO org.parosproxy.paros.core.scanner.Scanner  - scanner started
+18136 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Path Traversal
+18136 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Remote File Inclusion
+18136 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Server Side Include
+18137 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Reflected)
+18137 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Persistent)
+18137 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin SQL Injection
+18138 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Server Side Code Injection
+18138 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Remote OS Command Injection
+18138 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Directory Browsing
+18138 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin External Redirect
+18139 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Buffer Overflow
+18139 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Format String Error
+18139 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin CRLF Injection
+18139 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Parameter Tampering
+18140 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Persistent) - Prime
+18140 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Cross Site Scripting (Persistent) - Spider
+18140 [Thread-9] INFO org.parosproxy.paros.core.scanner.PluginFactory  - loaded plugin Script Active Scan Rules
+18142 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - Scanning 1 node(s) from http://192.168.1.115
+18143 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestPathTraversal strength MEDIUM threshold MEDIUM
+18149 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestPathTraversal in 0.006s
+18150 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestRemoteFileInclude strength MEDIUM threshold MEDIUM
+18150 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestRemoteFileInclude in 0s
+18151 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestServerSideInclude strength MEDIUM threshold MEDIUM
+18151 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestServerSideInclude in 0.001s
+18151 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestCrossSiteScriptV2 strength MEDIUM threshold MEDIUM
+18152 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestCrossSiteScriptV2 in 0.001s
+18152 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestSQLInjection strength MEDIUM threshold MEDIUM
+18154 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestSQLInjection in 0.002s
+18154 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | CodeInjectionPlugin strength MEDIUM threshold MEDIUM
+18154 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | CodeInjectionPlugin in 0s
+18155 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | CommandInjectionPlugin strength MEDIUM threshold MEDIUM
+18155 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | CommandInjectionPlugin in 0s
+18155 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestDirectoryBrowsing strength MEDIUM threshold MEDIUM
+18165 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestDirectoryBrowsing in 0.009s
+18165 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestExternalRedirect strength MEDIUM threshold MEDIUM
+18165 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestExternalRedirect in 0s
+18166 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | BufferOverflow strength MEDIUM threshold MEDIUM
+18167 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | BufferOverflow in 0.001s
+18167 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | FormatString strength MEDIUM threshold MEDIUM
+18168 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | FormatString in 0.001s
+18168 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestInjectionCRLF strength MEDIUM threshold MEDIUM
+18169 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestInjectionCRLF in 0.001s
+18169 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestParameterTamper strength MEDIUM threshold MEDIUM
+18170 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestParameterTamper in 0.001s
+18170 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestPersistentXSSPrime strength MEDIUM threshold MEDIUM
+18171 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestPersistentXSSPrime in 0.001s
+18172 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestPersistentXSSSpider strength MEDIUM threshold MEDIUM
+18177 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestPersistentXSSSpider in 0.005s
+18178 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | TestPersistentXSSAttack strength MEDIUM threshold MEDIUM
+18178 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host/plugin http://192.168.1.115 | TestPersistentXSSAttack in 0s
+18178 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - start host http://192.168.1.115 | ScriptsActiveScanner strength MEDIUM threshold MEDIUM
+18179 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - skipped plugin http://192.168.1.115 | ScriptsActiveScanner in 0.001s
+18179 [Thread-10] INFO org.parosproxy.paros.core.scanner.HostProcess  - completed host http://192.168.1.115 in 0.038s
+18179 [Thread-9] INFO org.parosproxy.paros.core.scanner.Scanner  - scanner completed in 0.045s
+34307 [Thread-28] INFO org.parosproxy.paros.core.scanner.Scanner  - scanner stopped
+34314 [Thread-28] INFO hsqldb.db..ENGINE  - dataFileCache commit start
+34317 [Thread-28] INFO hsqldb.db..ENGINE  - dataFileCache commit end
+34319 [Thread-28] INFO hsqldb.db..ENGINE  - Database closed
+34421 [Thread-28] INFO org.zaproxy.zap.extension.api.CoreAPI  - OWASP ZAP 2.5.0 terminated.
