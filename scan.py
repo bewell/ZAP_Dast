@@ -9,7 +9,7 @@ from zapv2 import ZAPv2
 import subprocess
 
 ############## parameters #################
-startZapPath = '/Users/g01059639/software/ZAP_2.5.0/zap.sh -daemon -port 9090 -config api.disablekey=true'
+startZapPath = '/Users/..../ZAP_2.5.0/zap.sh -daemon -port 9090 -config api.disablekey=true'
 target = sys.argv[1]
 zap = ZAPv2(proxies={'http': 'http://127.0.0.1:9090', 'https': 'http://127.0.0.1:9090'})
 logfile_zap = open('logfile_zap.log', 'w')
