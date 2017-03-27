@@ -6,7 +6,7 @@ This python script will help you achieve this, by the way, you are welcome to ch
 
 ## Steps to successfully launch the scan
 
-  - Place ZAP scanner somewhere (https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Cross_Platform.zip - Consult PLC)
+  - Download the ZAP scanner and place it somewhere on the disk. [Download link](https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Cross_Platform.zip)
   - Open the `scan.py` file and edit the `startZapPath` variable. You will find the syntax inside the file
   - Navigate to the root folder and launch the script
     ```sh
