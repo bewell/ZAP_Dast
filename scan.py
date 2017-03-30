@@ -41,8 +41,6 @@ print 'Spider completed'
 # Give the passive scanner a chance to finish
 time.sleep(3)
 
-
-
 print 'Scanning target %s' % target
 scanid = zap.ascan.scan(target)
 while (int(zap.ascan.status(scanid)) < 100):
@@ -50,8 +48,6 @@ while (int(zap.ascan.status(scanid)) < 100):
     time.sleep(0.5)
 
 print 'Scan completed'
-
-
 
 # Report the results
 
@@ -70,8 +66,6 @@ try:
     pprint (jsonOutputString, logfile_alerts)
 except:
     print "Oops!"
-
-
 
 print 'Shutting down ZAP Scanner, wait 4s'
 zap.core.shutdown()
